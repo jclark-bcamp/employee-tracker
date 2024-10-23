@@ -1,7 +1,7 @@
   # Employee Tracker
 
   ## Description
-  This Employee tracker creates a table of Departments that include various data including Employees, Managers, and Salaries.
+  This Employee tracker creates a table of Departments that includes various ways to input and view data including Employees, Managers, and Salaries.
 
   ## Installation
   Inquirer
