@@ -4,10 +4,10 @@
   This Employee tracker creates a table of Departments that includes various ways to input and view data including Employees, Managers, and Salaries.
 
   ## Installation
-  Inquirer
+  Inquirer, PostgreSQL, and Node.js
 
   ## Usage
-  Once you have both npm packages installed, open Node and run the application. You will be prompted with various options, including Adding or Viewing data in the table.
+  Once you have yout npm packages installed, open Node and run the application. You will be prompted with various options, including Adding or Viewing data in the table.
 
   ## Contributing
   For this project, I'd like to thank my dad for a lot of help as well as Xpert and other AI tools including Copilot. 
