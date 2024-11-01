@@ -1,13 +1,11 @@
-const mysql = require('postgres');
-//require('dotenv').config();
+const {Pool} = require('pg');
 
-const db = mysql.createConnection({
+const pool = new Pool({
     host: 'localhost',
-    // Your postgres username,
-    user: 'root',
-    // Your postgres password
+    user: 'janessaclark',
     password: '',
-    database: 'employee_tracker_db'
+    database: 'employee_tracker_db',
+    port: 5432,
 });
 
-module.exports = db;
+module.exports = pool;
